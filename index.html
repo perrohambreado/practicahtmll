@@ -1,49 +1,72 @@
 
 <!DOCTYPE html>
-<!--indica que es un documento html y version-->
 
 <link rel="stylesheet" href="style.css">
 <html>
     <head>
-    <!--Contiene metadas y dependencias-->
         <title>
             Brenda Ramos
         </title>
 
-        <!--Solo un head y solo un body-->
         <body>
-            <!--texto, imagenes, areas, etc.-->
-            <h1>
-                <!--Son para poner titulos, van del 1 al 6-->
+            <header>
                 Regina 𓆏
-            </h1>
-            <hr/>
-            <p>
-                Lista de proyectos
-            </p>
-            <ul>
-                <div>
+            </header>
+            <div class="projects">
+                <p>
+                    Lista de proyectos
+                </p>
+                <ul>
+                    <div>
+                        <li>
+                            Agenda
+                        </li>  
+                    </div>
+                    
                     <li>
-                        Agenda para organizacion que ademas permita tener diferentes cuadernos
-                    </li>  
-                </div>
-                
-                <li>
-                    Blog sobre libros
-                </li>
-                <li>
-                    Un casino online
-                </li>
-            </ul>
-            <div class="perfil" style="border: 2px solid pink; border-radius: 10px; padding: 20px; display: flexbox;">
-                <h4> Sobre mi </h4>
-                <img 
-                class="imgperf" src="idontknow\bae6637b3efecfd002f0c1f9605e53be.jpg" alt=""> 
-                
-                <p>Mi nombre es Regina, soy libra, me gusta mucho leer y escuchar musica 𓍊𓋼𓍊𓋼𓍊𓆏 </p>
-                <style>
+                        Blog
+                    </li>
+                    <li>
+                        Online casino
+                    </li>
+                </ul>
+            </div>
+            <div class="about-me-container">
+                <section class="about-me">
+                    <div class="about-container">
+                        <img src="idontknow\pfppic.jpg" alt="Your Image" class="profile-pic">
+                        <p class="name">Regina R. J.</p>
+                        <p class="name">My name is Regina, I am a Libra, I really like reading and listening to music 𓍊𓋼𓍊𓋼𓍊𓆏</p>
+                    </div>
+                </section>
+            </div>
 
-                </style>
+            <hr>
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Occupation</th>
+                    </tr>
+                    <tr class="td2">
+                        <td>John Smith</td>
+                        <td>28</td>
+                        <td>New York</td>
+                        <td>Engineer</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Jane Doe</td>
+                        <td colspan="2">32</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Chicago</td>
+                        <td>Doctor</td>
+                        <td>Researcher</td>
+                    </tr>
+                </table>
             </div>
 
         </body>
